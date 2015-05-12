@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+.container {
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-text-stroke: 2px black;
+}
+
+.channel {
+    top: 48px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.volume {
+    top: 48px;
+    right: 48px;
+    text-align: right;
+    -webkit-text-stroke: 2px black;
+}
+
+.program {
+    left: 0;
+    right: 0;
+    bottom: 48px;
+    margin: auto;
+    text-align: center;
+}
+
+#volume {
+    visibility: hidden;
+}
